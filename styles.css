@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  background-color:black;
+}
+
+#game-title {
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+  margin-left: 9%;
+
+}
+
+.container,.list1,.list2,.list3,.list4{
+  display: block;
+  width: 30%;
+  height:40%;
+  margin: auto;
+  font-size: 1.5rem;
+  line-height:2;
+}
+.start{
+  font-size: 2.5rem;
+  text-align: center;
+  font-family:"Ubuntu";
+  margin-left:7%;
+}
+.pink{
+  background-color: #ff1e56;
+
+   margin: 10%;
+}
+.red{
+  background-color: red;
+   margin: 10%;
+}
+.orange{
+  background-color: orange;
+   margin: 10%;
+}
+.skyblue{
+  background-color: #4be3ac;
+   margin: 10%;
+}
+.green{
+  background-color: #a8ff3e;
+   margin: 10%;
+}
+.darkgreen{
+  background-color: #004a2f;
+   margin: 10%;
+}
+.yellow{
+  background-color: yellow;
+   margin: 10%;
+}
+.purple{
+  background-color: purple;
+   margin: 10%;
+}
+.brown{
+  background-color: brown;
+   margin: 10%;
+}
+.darkblue{
+  background-color: blue;
+   margin: 10%;
+}
+.btn {
+
+  background-color:#f3d3d3;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 5%;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Ubuntu";
+  width:30%;
+
+}
+
+.btn1:hover {
+  background-color: black;
+  color: white;
+}
+#change-title{
+  font-family: "Ubuntu";
+  font-size: 5rem;
+  color:blue;
+}
+#display-title{
+  font-family: "Ubuntu";
+  color: white;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+#comment{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 7%;
+  color:#01024e;
+  width:40%;
+  font-size: 2rem;
+  background-color: #ecfcff;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #011F3F;
+}
+.hide{
+  visibility:hidden;
+}
+.y-n{
+  font-family:"Ubuntu";
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
