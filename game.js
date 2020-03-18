@@ -34,7 +34,7 @@ function checkAnswer(t) {
           $(".list4").fadeOut();
             $(".list3").fadeOut();
     $("#comment").val('');
-    if (t === "y") {
+    if (t === "y" || t==="Y") {
       i = i + 1;
     }
 
@@ -48,7 +48,7 @@ function checkAnswer(t) {
     $(".list1").fadeOut();
 
     $("#comment").val('');
-    if (t === "y") {
+    if (t === "y" || t==="Y") {
       i = i + 2;
     }
 
@@ -61,7 +61,7 @@ function checkAnswer(t) {
       $(".list3").fadeIn();
     $(".list2").addClass("hide");
     $("#comment").val('');
-    if (t === "y") {
+    if (t === "y" || t==="Y") {
       i = i + 3;
     }
 
@@ -73,7 +73,7 @@ function checkAnswer(t) {
       $(".list4").fadeIn();
     $(".list3").addClass("hide");
     $("#comment").val('');
-    if (t === "y") {
+    if (t === "y" || t==="Y") {
       i = i + 4;
     }
 
@@ -114,7 +114,7 @@ function lastSequence() {
     $("#game-title").text("Your color is Dark Blue");
   }
   else{
-      $("#game-title").text("Your entered wrong text.");
+      $("#game-title").text("You entered wrong text.");
   }
 
 }
